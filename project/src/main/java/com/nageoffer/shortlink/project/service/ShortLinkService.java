@@ -17,6 +17,8 @@
 
 package com.nageoffer.shortlink.project.service;
 
+import java.util.List;
+
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.nageoffer.shortlink.project.dao.entity.ShortLinkDO;
@@ -29,14 +31,13 @@ import com.nageoffer.shortlink.project.dto.resp.ShortLinkBatchCreateRespDTO;
 import com.nageoffer.shortlink.project.dto.resp.ShortLinkCreateRespDTO;
 import com.nageoffer.shortlink.project.dto.resp.ShortLinkGroupCountQueryRespDTO;
 import com.nageoffer.shortlink.project.dto.resp.ShortLinkPageRespDTO;
+
 import jakarta.servlet.ServletRequest;
 import jakarta.servlet.ServletResponse;
 
-import java.util.List;
-
 /**
  * 短链接接口层
- * 公众号：马丁玩编程，回复：加群，添加马哥微信（备注：link）获取项目资料
+ *  
  */
 public interface ShortLinkService extends IService<ShortLinkDO> {
 

@@ -17,15 +17,16 @@
 
 package com.nageoffer.shortlink.project.config;
 
-import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
+import java.util.Date;
+
 import org.apache.ibatis.reflection.MetaObject;
 import org.springframework.stereotype.Component;
 
-import java.util.Date;
+import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 
 /**
  * MyBatis-Plus 原数据自动填充类
- * 公众号：马丁玩编程，回复：加群，添加马哥微信（备注：link）获取项目资料
+ *  
  */
 @Component
 public class MyMetaObjectHandler implements MetaObjectHandler {
